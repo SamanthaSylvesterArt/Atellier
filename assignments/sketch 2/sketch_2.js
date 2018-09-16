@@ -15,8 +15,8 @@ function draw(){
   beginShape();
   vertex(0,0);
   ellipse(0,0,5,5);
-  bezier(random(), random(255), random(255),
-  random(255), random(255), random(255),
+  bezier(random(width), random(height), random(width),
+  random(height), random(width), random(height),
   100, 0, 0, 0, 100, 0);
   endShape();
 
