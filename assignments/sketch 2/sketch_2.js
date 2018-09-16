@@ -15,7 +15,6 @@ function draw(){
   beginShape();
   vertex(0,0);
   //cant get curve to start at o,o it starts at a few pixels besdie 0,0???
-  ellipse(0,0,5,5);
   bezier(random(width), random(height), random(width),
   random(height), random(width), random(height),
   100, 0, 0, 0, 100, 0);
